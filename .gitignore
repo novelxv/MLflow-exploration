@@ -192,3 +192,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# MLflow tracking logs and artifacts
+mlruns/
+mlflow.db
+mlartifacts/
+
+# MLflow temporary files (optional, if you use temp folders)
+**/mlruns_tmp/
